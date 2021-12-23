@@ -18,7 +18,7 @@ class Program
             Console.WriteLine("Плюс: ", result.ToString());
             result = complex1.Minus(complex2);
             Console.WriteLine("Минус: ", result.ToString());
-            result = complex1.Multi(complex2);
+            result = complex1.Multiply(complex2);
             Console.WriteLine("Умножить: ", result.ToString());
         }
     }
@@ -57,7 +57,7 @@ class Program
             return x3;
         }
 
-        public Complex Multi(Complex x2)
+        public Complex Multiply(Complex x2)
         {
             Complex x3 = new Complex();
             x3.im = im*x2.im + re*x2.im;
