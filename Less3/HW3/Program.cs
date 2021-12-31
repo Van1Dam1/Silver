@@ -90,7 +90,7 @@
             Fraction fr1 = new Fraction(1, 2);
             Fraction fr2 = new Fraction("1/3");
             Fraction fr3 = fr1 + fr2;
-            Console.WriteLine($"{fr1} + ${fr2} = ${fr3} = ${fr3.GetValue}.");
+            Console.WriteLine($"{fr1} + {fr2} = {fr3} = {fr3.GetValue}.");
             fr3 = fr1 - fr2;
             Console.WriteLine($"{fr1} - {fr2} = {fr3} = {fr3.GetValue}.");
             fr3 = fr1 * fr2;
